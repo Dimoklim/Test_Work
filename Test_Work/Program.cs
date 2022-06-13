@@ -1,8 +1,8 @@
 ﻿// Написать программу, которая из имеющегося массива строк формирует массив из строк, длина которых меньше либо равна 3 символа.
 
-string[] array = { "123", "23", "hello", "world", "res" };
+string[] array = { "hello", "2", "world", ":-)" };
 
-void threeСharArray(string[] array)
+void threeСharArray(string[] array) 
 {
     string[] newarr = new string[array.Length];
     for (int i = 0; i < array.Length; i++)
